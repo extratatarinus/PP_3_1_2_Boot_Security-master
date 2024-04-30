@@ -5,6 +5,11 @@
     <title>Добавление пользователя</title>
 </head>
 <body>
+<footer>
+    <form action="/logout" method="post">
+        <input type="submit" value="Выйти"/>
+    </form>
+</footer>
 <h1>Добавление нового пользователя</h1>
 <form action="/admin/add" method="post">
     Имя пользователя: <input type="text" name="username" required><br>
@@ -17,6 +22,5 @@
     </div>
     <button type="submit">Добавить пользователя</button>
 </form>
-<a href="/admin">Назад к списку пользователей</a>
 </body>
 </html>
